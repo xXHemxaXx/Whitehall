@@ -289,3 +289,34 @@
         }
     }
 }
+
+// Pages-02
+
+.section-bottles{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1380px;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 50px 0;
+
+    .container-bottles-articles{
+
+        .bottles-description{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+             
+    
+            p{
+                font-size: 14px;
+                margin-top: 20px;
+            }
+        }
+
+        p{
+            margin-top: 20px;
+        }
+    }
+}

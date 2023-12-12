@@ -1,3 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
+// font-family: 'Playfair Display', serif;
+// font-family: 'Roboto', sans-serif;
+
+
+// GENERALE
+
 a{
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Playfair Display', serif;
+}
+
+// HEADER
+
+.top-header{
+    p{
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+}
+
+// MAIN
+.banner{
+    p{
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+.section-explore_whitehall{
+    .titre-section{
+        p{
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+
+    .container-grid-explore{
+        a{
+            font-family: 'Playfair Display', serif;
+        }
+    }
+}
+
+.section-a_family_business{
+    .container-women-article{
+        .container-women-txt{
+            p{
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+    }
+}
+
+.section-our_favourite_collctions{
+    .titre-section{
+        p{
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}
+ 
+// FOOTER
+
+.container-contact-newslettre{
+    .container-contact-pay{
+        .container-contact-pay-titre{
+            h2{
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+    }
 }
