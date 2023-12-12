@@ -157,5 +157,135 @@
         }
     }
 
+    .container-articles-our{
+        display: grid;
+        grid-template-columns: repeat(2, 660px);
+        column-gap: 40px;
+        justify-content: center;
+        margin-bottom: 200px;
+
+        .container-scale{
+            overflow: hidden;
+            margin-bottom: 30px;
+
+            img{
+                transition: 0.5s all ease-in-out;
+
+                &:hover{
+                    transform: scale(1.08);
+                    transition: 0.5s all ease-in-out;
+                }
+            }
+        }
+
+        .container-txt-our{
+            width: 400px;
+            margin: 0 auto;
+            h2{
+                text-transform: uppercase;
+                font-size: 32px;
+                text-align: center;
+            }
+
+            p{
+                text-align: center;
+            }
+        }
+
+        .container-link_info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a{
+                text-transform: uppercase;
+                color: #000;
+            }
+
+            p{
+                margin: 0 20px;
+            }
+        }
+    }
+}
+
+.section-on_the_grape_vine{
     
+    .titre-section{
+        h1{
+            color: #1d1d1b;
+            text-transform: uppercase;
+            font-size: 32px;
+            font-weight: lighter;
+            text-align: center;
+        }
+    }
+
+    .container-articles-grape_vine{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(3, 435px);
+        column-gap: 30px;
+        margin-bottom: 80px;
+        
+        a:hover{
+            img{
+                transform: scale(1.08);
+                transition: 0.5s all ease-in-out;
+            }
+        }
+
+        .container-scale{
+            overflow: hidden;
+            margin-bottom: 30px;
+
+            img{
+                transition: 0.5s all ease-in-out;
+                width: 100%;
+            }
+        }
+
+        a{
+            color: #1d1d1b;
+            p{
+                text-transform: uppercase;
+                font-weight: bold;
+                letter-spacing: 5px;
+                font-size: 11px;
+            }
+
+            h2{
+                text-transform: uppercase;
+                font-weight: lighter;
+            }
+        }
+
+        .container-footer-articles{
+            a{
+                text-transform: uppercase;
+                color: #1d1d1b; 
+                font-weight: bold;
+            }
+        }
+    }
+
+    .container-btn{
+        text-align: center;
+        margin-bottom: 60px;
+
+        .btn-light{
+            background-color: #96958a;
+            color: #fff;
+            text-transform: uppercase;
+            padding: 15px 50px;
+            margin-top: 40px;
+            font-size: 16px;
+            transition: 0.3s all ease-in-out;
+    
+            &:hover{
+                background-color: #a8a79b;
+                transition: 0.3s all ease-in-out;
+            }
+        }
+    }
 }
