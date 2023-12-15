@@ -364,15 +364,114 @@
             position: relative;
         }
 
+        &:nth-child(1){
+            .bottles-img{
+                background-image: url(../../img/pinot19_628x628.png);
+
+                &:hover{
+                    background-image: url(../../img/nethercote181_628x628.png);
+                }
+            }
+        }
+        &:nth-child(2){
+            .bottles-img{
+                background-image: url(../../img/nethercote18_628x628.png);
+
+                &:hover{
+                    background-image: url(../../img/nethercote181_628x628.png);
+                }
+            }
+        }
+        &:nth-child(3){
+            .bottles-img{
+                background-image: url(../../img/pinotgris_628x628.png);
+
+                &:hover{
+                    background-image: url(../../img/pinotgris1_628x628.png);
+                }
+            }
+        }
+        &:nth-child(4){
+            .bottles-img{
+                background-image: url(../../img/Bacchus2020_628x628.png);
+
+                &:hover{
+                    background-image: url(../../img/bacchus201_628x628.png);
+                }
+            }
+        }
+        &:nth-child(6){
+            .bottles-img{
+                background-image: url(../../img/watermeadows_628x628.png);
+
+                &:hover{
+                    background-image: url(../../img/water1_628x628.png);
+                }
+            }
+        }
+        &:nth-child(7){
+            .bottles-img{
+                background-image: url(../../img/BellaRosa_628x628.png);
+
+                &:hover{
+                    background-image: url(../../img/rosa1_628x628.png);
+                }
+            }
+        }
+        &:nth-child(8){
+            .bottles-img{
+                background-image: url(../../img/MulledWine2020_628x628.png);
+
+                &:hover{
+                    background-image: url(../../img/IMG_E4764_628x628.jpg);
+                }
+            }
+        }
+        &:nth-child(9){
+            .bottles-img{
+                background-image: url(../../img/CharlotteMay2021_628x628.png);
+
+                &:hover{
+                    background-image: url(../../img/rosa1_628x628.png);
+                }
+            }
+        }
+        &:nth-child(10){
+            .bottles-img{
+                background-image: url(../../img/chardonnay_628x628.png);
+            }
+        }
+        &:nth-child(11){
+            .bottles-img{
+                background-image: url(../../img/SPARKLINGROSE_628x628.jpg);
+            }
+        }
+        &:nth-child(12){
+            .bottles-img{
+                background-image: url(../../img/LadyoftheValley_628x628.png);
+
+                &:hover{
+                    background-image: url(../../img/rosa1_628x628.png);
+                }
+            }
+        }
+        &:nth-child(13){
+            .bottles-img{
+                background-image: url(../../img/WhitePinotNoir_628x628.png);
+
+                &:hover{
+                    background-image: url(../../img/pinot191_628x628.png);
+                }
+            }
+        }
+
         .bottles-img{
             width: 330px;
             height: 320px;
-            background-image: url(../../img/pinot19_628x628.png);
             background-size: cover;
             background-position: center;
 
             &:hover{
-                background-image: url(../../img/nethercote181_628x628.png);
                 background-size: cover;
                 background-position: center;
 
@@ -393,6 +492,20 @@
                         justify-content: center;
                         width: 70%;
                     }
+                }
+            }
+
+            .new_release{
+                background-color: #f6f6f0;
+                top: 15px;
+                left: 15px;
+                position: absolute;
+                padding: 5px 10px;
+
+                p{
+                    margin: 0;
+                    color: #000;
+                    font-size: small;
                 }
             }
 
